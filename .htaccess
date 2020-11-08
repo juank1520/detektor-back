@@ -1,0 +1,6 @@
+
+Redirect 301 / https://example.com/
+<IfModule mod_headers.c>
+    Redirect 301 / https://example.com/
+    Header set Access-Control-Allow-Origin "*"
+</IfModule>
