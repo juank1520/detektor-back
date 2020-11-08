@@ -2,13 +2,14 @@
 
 1. Clonar el repositorio en la carpeta /var/www
 ```console
+detektor@UbSwDevDtk: cd /var/www
 detektor@UbSwDevDtk: git clone https://github.com/juank1520/detektor-back.git
 ```
 
 2. Crear un host virtual con nombre 'motivos.devel' en apache
 2.1. Dirigirse abrir el archivo hosts del directorio '/etc'
 ```console
-detektor@UbSwDevDtk:~$ sudo nano 
+detektor@UbSwDevDtk:~$ sudo nano /etc/hosts
 ```
 2.2. Agregar la siguiente línea 
 ```console
